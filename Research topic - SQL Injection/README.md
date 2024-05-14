@@ -173,7 +173,7 @@ To protect web applications from dangerous SQL Injection (SQLi) attacks, impleme
 This is the most effective method to prevent SQLi. Instead of building SQL queries directly from user data, use prepared parameters to separate the data from the query. The database automatically processes input data, ensuring it does not contain malicious SQL code.
 
 For example:
-```SQL
+```sql
 // SQL code is insecure (can be subject to SQLi attacks)
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -183,7 +183,7 @@ $result = mysqli_query($conn, $query);
 
 ```
 
-```SQL
+```sql
 // Safe SQL code uses prepared parameters
 $username = $_POST['username'];
 $password = $_POST['password'];
@@ -199,7 +199,7 @@ $result = $stmt->get_result();
 Always check and filter user input before using it in an SQL query. Remove special characters, HTML code, JavaScript code, and any other characters that could harm the query.
 
 For example (PHP):
-```PHP
+```php
 function sanitizeInput($data) {
   $data = trim($data);
   $data = stripslashes($data);
