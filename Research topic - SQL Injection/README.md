@@ -103,7 +103,7 @@ This type of attack is more difficult to exploit than `in-band SQLi`, but it can
 ### 3. Out-of-band SQLi 
 This type of attack is less common than `in-band SQLi` and `blind SQLi`, but it can be very dangerous. The attacker uses malicious SQL code to interact with the external server and collect information. This allows attackers to perform actions they cannot perform with `in-band SQLi` or `blind SQLi`, such as sending spam emails or installing malware.
 
-There are also several other less common types of SQLi attacks, including:
+**There are also several other less common types of SQLi attacks, including:**
 - **Second-order SQLi:** Attackers take advantage of data stored in the database to execute unauthorized SQL queries.
 - **NoSQL injection:** Attackers target NoSQL databases, such as `MongoDB` or `Cassandra`.
 - **XML injection:** Attackers target web applications that use XML to process data.
