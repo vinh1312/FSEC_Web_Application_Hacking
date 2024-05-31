@@ -256,7 +256,7 @@ XSS vulnerabilities can be used to attack websites containing multimedia content
 
 **6. Systemic Weakness**
 
-If a web application contains a large number of XSS vulnerabilities, it can become weakened and more vulnerable to attacks, leading to the risk of data loss, loss of service or negative impact on the organization's reputation. position.
+If a web application contains a large number of XSS vulnerabilities, it can become weakened and more vulnerable to attacks, leading to the risk of data loss, loss of service or negative impact on the organization's reputation.
 
 <a name="how-to-search-and-test-for-xss-crosssite-scripting-vulnerabilities"></a>
 ## VI. How to Search and Test for XSS (Cross-Site Scripting) Vulnerabilities
