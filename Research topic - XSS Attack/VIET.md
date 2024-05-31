@@ -36,6 +36,9 @@ XSS là một trong các lỗ hổng bảo mật khá nổi tiếng, khác với
 
 Hiểu một cách đơn giản, XSS cho phép hacker lợi dụng các lỗ hổng bảo mật trên trang web để chèn các đoạn mã script độc hại. Những đoạn mã này sau đó được gửi đến người dùng, hoặc người dùng vô tình truy cập vào trang web đã bị nhiễm mã độc. Qua đó, hacker có thể đánh cắp thông tin nhạy cảm như `Cookie` của người dùng và sử dụng nó để truy cập vào các tài khoản trên website đã bị nhiễm mã độc.
 
+>`Cross-site` đề cập đến thực tế là mã độc hại được thực thi trên một trang web khác với nơi nó được tạo ra. Ví dụ: kẻ tấn công có thể tạo một trang web độc hại chứa mã JavaScript độc hại. Khi người dùng truy cập trang web độc hại này, mã JavaScript sẽ được thực thi trên trang web hợp pháp mà người dùng đang truy cập.\
+`Scripting` đề cập đến thực tế là mã độc hại thường được viết bằng ngôn ngữ kịch bản, chẳng hạn như JavaScript. Mã kịch bản có thể được sử dụng để thực hiện nhiều hành động khác nhau, chẳng hạn như đánh cắp dữ liệu người dùng, thay đổi nội dung trang web hoặc thực thi mã JavaScript độc hại khác.
+
 <a name="how-does-xss-crosssite-scripting-work"></a>
 ## II. XSS (Cross-Site Scripting) hoạt động như thế nào?
 
@@ -328,13 +331,3 @@ Nếu một ứng dụng web chứa một số lượng lớn các lỗ hổng X
 Trong quá trình kiểm thử phần mềm, đánh giá rủi ro tiềm ẩn do các cuộc tấn công XSS là bước vô cùng quan trọng. `XSS (Cross-site Scripting)` được xem là một trong những mối đe dọa nguy hiểm nhất đối với ứng dụng web, cho phép kẻ tấn công chèn mã độc hại vào trang web, gây ra nhiều hậu quả nghiêm trọng như đánh cắp thông tin nhạy cảm, lây nhiễm phần mềm độc hại, thậm chí dẫn đến việc chiếm quyền kiểm soát ứng dụng.
 
 Do đó, việc thực hiện kiểm thử tấn công XSS là điều không thể bỏ qua để đảm bảo an ninh cho ứng dụng web. Hiểu biết về các kỹ thuật tấn công XSS là nền tảng then chốt để phân tích kết quả kiểm thử một cách chính xác và lựa chọn công cụ kiểm tra phù hợp.
-
-
-
-
-
-
-
-
-
-
